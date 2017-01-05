@@ -33,8 +33,11 @@ dependencies {
 
     // used to generate mostly getters and setters
     compile 'org.projectlombok:lombok:1.14.8'
+
+    // uses annotations to help instantiate the views from activities or fragment
     compile 'com.jakewharton:butterknife:6.0.0'
 
+    // add specific schedulers for Android
     compile 'io.reactivex:rxandroid:0.24.0'
 
 
